@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="application.chart.management.BarChartViewerSingleSeries" 
+    project="4975_5025_5102_StructuredFileFilter" 
+    file="/4975_5025_5102_StructuredFileFilter/src/application/chart/management/BarChartViewerSingleSeries.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="388" x="656" y="160"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="application.chart.management.LineChartViewerSingleSeries" 
+    project="4975_5025_5102_StructuredFileFilter" 
+    file="/4975_5025_5102_StructuredFileFilter/src/application/chart/management/LineChartViewerSingleSeries.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="392" x="1084" y="160"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="application.chart.management.VisualizationEngine" 
+    project="4975_5025_5102_StructuredFileFilter" 
+    file="/4975_5025_5102_StructuredFileFilter/src/application/chart/management/VisualizationEngine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="485" x="870" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="4">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="5">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
